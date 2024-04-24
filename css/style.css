@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "roboto mono";
+    background-color: darkgray;
+}
+header{
+    background-color: darkgray;
+    text-align: center;
+}
+footer{
+    background-color:darkgray;
+    padding: 20px 50px;
+    color: white;
+}
+#about {
+    background-color:rgb(202, 201, 201);
+    padding: 20px 50px;
+    color: white;
+}
+#articles {
+    background-color:white;
+    color: white;
+}
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+.avatar {
+display: block;
+    margin: 10px auto;
+    width: 3em;
+}
+p {
+    font-size: 1,5em;
+    line-height: 2em;
+}
+.list {
+    margin-left: 50px;
+    font-size: 1.5em;
+}
+nav{
+    padding: 10px 50px;
+}
+.menu{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.zagolovok{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fig{
+    text-align: center;
+}
+a{
+    /* background-color: chocolate;
+    border-radius: 1em;
+    padding: 16px; */
+}
+.sociol{
+    background-color: black;
+    border-radius: 1em;
+    padding: 16px;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+.content{
+    background-color: white;
+}
